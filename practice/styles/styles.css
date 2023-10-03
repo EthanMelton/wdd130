@@ -17,15 +17,14 @@ nav, footer {
 
 main p {
     width: 80%;
-    margin: 50px auto;
+    margin: 5% auto;
     text-align: center;
 }
 
 nav a {
-    padding:1em;
-    min-width: 120px;
+    padding: 1em;
+    min-width: 95%;
     text-decoration: none;
-    padding: 10px;
 }
 
 nav {
