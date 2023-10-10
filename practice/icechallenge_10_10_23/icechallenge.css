@@ -1,0 +1,23 @@
+body {
+    margin : 0 auto;
+    background-color: gray;
+    
+}
+
+#hero-box-1 img {
+    width : 100%
+    
+}
+
+#hero-box-2 img {
+    width: 10%;
+    border: 8px solid black;
+    border-radius: 50%;
+    margin: 0% 5% auto
+    
+}
+
+#hero-box-2 {
+    text-align: center;
+    margin: 3.5% auto
+}
