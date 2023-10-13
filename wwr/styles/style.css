@@ -34,6 +34,10 @@ nav a:hover{
     color:#F87D4F
 }
 
+#hero-box {
+    text-align: center;
+}
+
 #hero-msg h1 {
     text-align: center;
 }
