@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia&family=Tahoma:ital,wght@0,400;0,700;1,400&display=swap');
+
 body{
     background-color: #D9FAF1;
-    margin: 0 auto;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
@@ -17,6 +21,7 @@ header{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -24,19 +29,28 @@ header{
     border-radius: 40%;
 }
 
+#logo link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color :#11E6E9;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
     background-color: #F87D4F;
-    color:#D9FAF1
+    color:#D9FAF1;
 }
 
 .home-title {
-    color:#F87D4F
+    color:#F87D4F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+    padding-bottom: 15px;
 }
 
 #hero-msg h1 {
@@ -48,15 +62,17 @@ nav a:hover{
 }
 
 #hero-img {
-    width: 100%
+    width: 100%;
 }
 
 h2 {
-    color:#F87D4F
+    color:#F87D4F;
+    margin: 0;
 }
 
 h4 {
-    color:#F87D4F
+    color:#F87D4F;
+    padding-bottom: 10px;
 }
 
 .button-box {
@@ -67,16 +83,28 @@ h4 {
     height: 725px;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .book{
     background-color: #11E6E9;
     color: #E66060;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color: #D9FAF1;
     color: #11E6E9;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -89,25 +117,53 @@ h4 {
     color: #D9FAF1;
 }
 
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #E66060;
+}
+
 #background{
     background-color: #E66060;
 }
 
 .msg{
     background-color: #F87D4F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #11E6E9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .msg p {
     color: #D9FAF1;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.mountains {
+    padding-top: 100px;
+    padding-bottom: 175px;
 }
 
 footer{
     background-color: #F87D4F;
     color: #11E6E9;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -126,3 +182,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
+
+footer .social img {
+    padding-top: 15px;
+}
